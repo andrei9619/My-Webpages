@@ -43,22 +43,27 @@ display: rgb(0, 0, 0);
 width: fit-content;
 font-size: 4rem;
 position: relative;
-color: rgb(255, 255, 255);}
+color: white;
+animation: text_reveal 1s ease forwards;
+}
 
 #hero h1 span {
 position: absolute;
 top: 0;
 left: 0;
 height: 100%;
-width: 100%;
-background-color: crimson;}
+width: 0%;
+background-color: rgb(6, 87, 179);
+animation: text_reveal_box 1s ease;
+animation-delay: 1s;
+}
 
 #hero .cta{
 display: inline-block;
 padding: 10px 30px;
 color: rgb(255, 255, 255);
 background-color: transparent;
-border: 2px solid rgb(43, 129, 168) ; 
+border: 2px solid rgb(9, 114, 163) ; 
 font-size: 2rem;
 text-transform: uppercase;
 letter-spacing: .1rem;
@@ -68,11 +73,40 @@ transition-property: bacground-color, color;}
 
 #hero .cta:hover{
 color: azure;
-background-color: rgb(21, 111, 196);}
+background-color: rgb(27, 104, 177);}
+/* ------------------------------------END HERO SECTION------------------------------------------- */
+
+
+/* -------------------------------------KeyFrames0------------------------------------------------ */
+@keyframes text_reveal_box{
+50%{
+    width: 100%;
+    left: 0;
+}
+100%{
+    width: 0;
+    left: 100%;
+}
+}
+@keyframes text_reveeal {
+100%{
+    color: white;
+}
+
+}
 
 
 
 
 
-/* END HERO SECTION */
+/*----------------------------------------End KeyFrames--------------------------------------------*/
 
+
+
+
+
+
+
+/* */
+/* */
+/* */
