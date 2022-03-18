@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;   }
+
+html {
+    font-size: 10px ;
+    font-family: 'Montserrat', sans-serif;}
+
+a {
+    text-decoration: none;}
+
+.container {
+min-height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+/* HERO SECTION */
+#hero{
+background-image: url(./IMG_6624.jpg);
+background-size: cover;
+background-position: top center;
+position: relative;
+z-index: 1;} 
+
+#hero::after{
+    content: '';
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background-color: black;
+opacity: .6;
+z-index: -1;}
+
+#hero h1 {
+display: rgb(0, 0, 0);
+width: fit-content;
+font-size: 4rem;
+position: relative;
+color: rgb(255, 255, 255);}
+
+#hero h1 span {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: crimson;}
+
+#hero .cta{
+display: inline-block;
+padding: 10px 30px;
+color: rgb(255, 255, 255);
+background-color: transparent;
+border: 2px solid rgb(43, 129, 168) ; 
+font-size: 2rem;
+text-transform: uppercase;
+letter-spacing: .1rem;
+margin-top: 30px;
+transition: .3 ease background-color;
+transition-property: bacground-color, color;}
+
+#hero .cta:hover{
+color: azure;
+background-color: rgb(21, 111, 196);}
+
+
+
+
+
+/* END HERO SECTION */
+
