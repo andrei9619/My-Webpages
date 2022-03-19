@@ -17,9 +17,19 @@ min-height: 100vh;
 width: 100%;
 display: flex;
 align-items: center;
-justify-content: center;}
+padding: 370px;
+}
 
-/* HERO SECTION */
+.container img{
+border-radius: 1px;
+padding: 1px;
+width: 400px;
+border: 2px solid rgb(14, 106, 182);
+border-radius: 100%;
+}
+
+
+/* -----------------------------------HERO SECTION --------------------------------------*/
 #hero{
 background-image: url(./IMG_6624.jpg);
 background-size: cover;
@@ -28,24 +38,37 @@ position: relative;
 z-index: 1;} 
 
 #hero::after{
-    content: '';
+content: '';
 position: absolute;
 left: 0;
 top: 0;
 height: 100%;
 width: 100%;
 background-color: black;
-opacity: .6;
+opacity: .7;
 z-index: -1;}
 
+
 #hero h1 {
+    font-style: unset;
 display: rgb(0, 0, 0);
 width: fit-content;
-font-size: 4rem;
+font-size: 6rem;
 position: relative;
 color: white;
 animation: text_reveal 1s ease forwards;
+margin-left: 50px;
 }
+
+#hero h2 {
+    display: rgb(0, 0, 0);
+    width: fit-content;
+    font-size: 3rem;
+    position: relative;
+    color: rgb(170, 170, 170);
+    margin-left: 50px;
+    
+    }
 
 #hero h1 span {
 position: absolute;
@@ -54,8 +77,6 @@ left: 0;
 height: 100%;
 width: 0%;
 background-color: rgb(6, 87, 179);
-animation: text_reveal_box 1s ease;
-animation-delay: 1s;
 }
 
 #hero .cta{
@@ -63,50 +84,59 @@ display: inline-block;
 padding: 10px 30px;
 color: rgb(255, 255, 255);
 background-color: transparent;
-border: 2px solid rgb(9, 114, 163) ; 
+border: 2px solid rgb(8, 117, 156) ; 
 font-size: 2rem;
 text-transform: uppercase;
 letter-spacing: .1rem;
 margin-top: 30px;
+margin-left: 55px;
 transition: .3 ease background-color;
-transition-property: bacground-color, color;}
+transition-property: bacground-color, color;
+}
+
+#hero .cta1{
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 2px solid rgb(8, 117, 156) ; 
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    margin-left: 50px;
+    transition: .3 ease background-color;
+    transition-property: bacground-color, color;
+    }
 
 #hero .cta:hover{
+   
 color: azure;
 background-color: rgb(27, 104, 177);}
+
+#hero .cta1:hover{
+   
+    color: azure;
+    background-color: rgb(27, 104, 177);}
 /* ------------------------------------END HERO SECTION------------------------------------------- */
 
 
-/* -------------------------------------KeyFrames0------------------------------------------------ */
-@keyframes text_reveal_box{
-50%{
-    width: 100%;
-    left: 0;
-}
-100%{
-    width: 0;
-    left: 100%;
-}
-}
-@keyframes text_reveeal {
-100%{
-    color: white;
-}
-
+/* -------------------------------------SECONDPAGE------------------------------------------------ */
+.secondcontainer img{
+width: 60px;
+margin-left: 70px;
 }
 
 
 
 
 
-/*----------------------------------------End KeyFrames--------------------------------------------*/
 
 
 
 
 
-
-
+/*----------------------------------------End SECONDPAGE--------------------------------------------*/
 /* */
 /* */
 /* */
