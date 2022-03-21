@@ -28,6 +28,34 @@ border: 2px solid rgb(14, 106, 182);
 border-radius: 100%;
 }
 
+/*-----------Header------------------*/
+
+
+#bba {
+    display: inline-block;
+padding: 10px 30px;
+color: rgb(253, 253, 253);
+background-color: transparent;
+border: 2px solid rgb(8, 117, 156) ; 
+font-size: 2rem;
+text-transform: uppercase;
+letter-spacing: .1rem;
+transition: .3 ease background-color;
+transition-property: bacground-color, color;
+    }
+
+#bba:hover{
+
+color: azure;
+background-color: rgb(27, 104, 177);}
+
+
+
+
+
+
+
+
 
 /* -----------------------------------HERO SECTION --------------------------------------*/
 #hero{
@@ -125,6 +153,13 @@ background-color: rgb(27, 104, 177);}
 .secondcontainer img{
 width: 60px;
 margin-left: 70px;
+}
+
+
+
+.fb{
+
+    color: aqua;
 }
 
 
