@@ -146,23 +146,36 @@ background-color: rgb(27, 104, 177);}
    
     color: azure;
     background-color: rgb(27, 104, 177);}
-/* ------------------------------------END HERO SECTION------------------------------------------- */
+/* ---------------------END HERO SECTION--------------------------- */
 
 
-/* -------------------------------------SECONDPAGE------------------------------------------------ */
+/* ------------------------SECONDPAGE------------------------------- */
 .secondcontainer img{
 width: 60px;
 margin-left: 70px;
 }
 
 
+/* ------------------------Experience------------------------------- */
 
-.fb{
+#xperience{
+background-color: rgb(8, 117, 156);
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
 
-    color: aqua;
 }
 
+#xperience womu{
+    background-color: rgb(8, 117, 156);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    }
 
+
+/* ------------------------ENDEXperience------------------------------- */
 
 
 
