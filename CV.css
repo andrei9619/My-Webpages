@@ -57,7 +57,7 @@ background-color: rgb(27, 104, 177);}
 
 
 
-/* -----------------------------------HERO SECTION --------------------------------------*/
+/* ----------------------------HERO SECTION ---------------------------*/
 #hero{
 background-image: url(./IMG_6624.jpg);
 background-size: cover;
@@ -146,17 +146,27 @@ background-color: rgb(27, 104, 177);}
    
     color: azure;
     background-color: rgb(27, 104, 177);}
-/* ---------------------END HERO SECTION--------------------------- */
+/* ---------------------END HERO SECTION------------------------- */
 
 
-/* ------------------------SECONDPAGE------------------------------- */
-.secondcontainer img{
-width: 60px;
-margin-left: 70px;
-}
+/* ------------------------SECONDPAGE---------------------------- */
+.contact h1 {
+    text-align: center;
+    }
+
+.bg-yellow {
+        background: #afafaf;
+        margin-top: 20px;
+        }
+
+.card {
+            padding: 55px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            }
 
 
-/* ------------------------Experience------------------------------- */
+/* ------------------------Experience---------------------------- */
 
 #xperience{
 background-color: rgb(8, 117, 156);
@@ -166,25 +176,31 @@ margin-bottom: 20px;
 
 }
 
-#xperience womu{
+
+
+/* ------------------------ENDEXperience---------------------- */
+
+/* ------------------------Tools------------------------------- */
+#ools{
     background-color: rgb(8, 117, 156);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     
     }
+/* ------------------------ENDTools------------------------------- */
+#rojects{
+    background-color: rgb(8, 117, 156);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;}
 
 
-/* ------------------------ENDEXperience------------------------------- */
+#hire{
+    background-color: rgb(8, 117, 156);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;}
 
 
-
-
-
-
-
-
-/*----------------------------------------End SECONDPAGE--------------------------------------------*/
-/* */
-/* */
-/* */
+/*-------------------------End SECONDPAGE---------------------*/
