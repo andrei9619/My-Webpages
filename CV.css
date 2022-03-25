@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 
+
 * {
 padding: 0;
 margin: 0;
-box-sizing: border-box;   }
+box-sizing: border-box; ;
+}
+
+body {
+background: rgb(211, 209, 209);
+
+}
 
 html {
     font-size: 10px ;
@@ -42,6 +49,7 @@ text-transform: uppercase;
 letter-spacing: .1rem;
 transition: .3 ease background-color;
 transition-property: bacground-color, color;
+
     }
 
 #bba:hover{
@@ -149,12 +157,16 @@ background-color: rgb(27, 104, 177);}
 /* ---------------------END HERO SECTION------------------------- */
 
 
+h1{
+text-align: center;
+
+}
 /* ------------------------SECONDPAGE---------------------------- */
 .contact h1 {
     text-align: center;
     }
 
-.bg-yellow {
+.bg-gray {
         background: #afafaf;
         margin-top: 20px;
         }
@@ -162,7 +174,9 @@ background-color: rgb(27, 104, 177);}
 .card {
             padding: 55px;
             margin-bottom: 20px;
-            border-radius: 15px;
+            border-radius: 15px; 
+            font-size: 18px; 
+            max-width: 1200px;  
             }
 
 
@@ -173,9 +187,18 @@ background-color: rgb(8, 117, 156);
 text-align: center;
 margin-top: 20px;
 margin-bottom: 20px;
+border: 3px solid black;
+}
+
+.womuu {
+color: red;
 
 }
 
+span {
+text-transform: uppercase;
+
+}
 
 
 /* ------------------------ENDEXperience---------------------- */
@@ -186,6 +209,7 @@ margin-bottom: 20px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 3px solid black;
     
     }
 /* ------------------------ENDTools------------------------------- */
@@ -193,14 +217,16 @@ margin-bottom: 20px;
     background-color: rgb(8, 117, 156);
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    border: 3px solid black;}
 
 
 #hire{
     background-color: rgb(8, 117, 156);
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    border: 3px solid black;}
 
 
 /*-------------------------End SECONDPAGE---------------------*/
