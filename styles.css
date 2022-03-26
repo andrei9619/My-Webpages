@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+html {
+    font-size: 10px ;
+    font-family: 'Montserrat', sans-serif;}
+
+
+h1{
+    text-align: center;}
+
+.avatar {
+max-width: 100%;
+
+}
+
+/* ------------------------SECONDPAGE---------------------------- */
+.contact h1 {
+    text-align: center;
+    }
+
+.bg-gray {
+        background: #afafaf;
+        margin-top: 20px;
+        }
+
+.card {
+            padding: 55px;
+            margin-bottom: 20px;
+            border-radius: 15px; 
+            font-size: 18px; 
+            max-width: 3000px;  
+            }
+
+/* ------------------------Experience---------------------------- */
+
+#xperience{
+    background-color: rgb(8, 117, 156);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    }
+    
+    .womuu {
+    color: red;
+    
+    }
+    
+    span {
+    text-transform: uppercase;
+    
+    }
+
+#ools{
+        background-color: rgb(8, 117, 156);
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 3px solid black;
+        
+        }
+
+/* ------------------------ENDTools------------------------------- */
+#rojects{
+    background-color: rgb(8, 117, 156);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;}
+
+
+#hire{
+    background-color: rgb(8, 117, 156);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;}
+
+
+/*-------------------------End SECONDPAGE---------------------*/
