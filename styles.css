@@ -1,79 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
-html {
-    font-size: 10px ;
-    font-family: 'Montserrat', sans-serif;}
 
-
-h1{
-    text-align: center;}
-
-.avatar {
-max-width: 100%;
-
+*{
+  margin-left: 0px;
+  margin-top: 30px;
+  background-color: rgb(209, 216, 218);
+  
 }
 
-/* ------------------------SECONDPAGE---------------------------- */
-.contact h1 {
-    text-align: center;
-    }
+p{
+  margin-left: 40px;
+  margin-right: 60px;
+  padding-bottom: 15px;
+  color: rgb(95, 95, 95);
+  font-size: 30px;
+}
 
-.bg-gray {
-        background: #afafaf;
-        margin-top: 20px;
-        }
+.hero img {
 
-.card {
-            padding: 55px;
-            margin-bottom: 20px;
-            border-radius: 15px; 
-            font-size: 18px; 
-            max-width: 3000px;  
-            }
+border-radius: 100%;
+width: 300px;
+border: 1px solid black;
+display: block;
+margin: 0 auto;
+}
 
-/* ------------------------Experience---------------------------- */
+/* .hero{
+  background-image: url(/CV/pexels-marina-leonova-7718587.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+margin-top: -40px;
+padding: auto;
+} */
 
-#xperience{
-    background-color: rgb(8, 117, 156);
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 3px solid black;
-    }
-    
-    .womuu {
-    color: red;
-    
-    }
-    
-    span {
-    text-transform: uppercase;
-    
-    }
+.name{
+text-align: center;
+margin-top: 25px;
+background: transparent;
+font-size: 50px;
+}
+.qa{
+color: rgb(95, 95, 95);
+text-align: center;
+padding: 10px;
+background: transparent;
+font-size: 35px;
+}
 
-#ools{
-        background-color: rgb(8, 117, 156);
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border: 3px solid black;
-        
-        }
+.btn1{
+  text-align: center;
+margin: 20px 40px;
+margin-bottom: 80px;
+background: transparent;
+}
+a {
+background: rgb(224, 224, 224);
+text-decoration: none;
+padding: 1.2rem 1.5rem;
+color: black;
+text-transform: uppercase;
+cursor: pointer;
+}
 
-/* ------------------------ENDTools------------------------------- */
-#rojects{
-    background-color: rgb(8, 117, 156);
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 3px solid black;}
+.womu h1{
+margin-left: 90px;
+color: rgb(110, 146, 212);
+margin-top: 15px;
+margin-bottom: 15px;
+}
+ul li{
+color: rgb(68, 151, 123);
+font-size: 25px;
+}
 
-
-#hire{
-    background-color: rgb(8, 117, 156);
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 3px solid black;}
-
-
-/*-------------------------End SECONDPAGE---------------------*/
+.technop h1{
+color: rgb(110, 146, 212);
+margin-left: 90px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
