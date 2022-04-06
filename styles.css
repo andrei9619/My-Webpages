@@ -1,10 +1,9 @@
 
 *{
   margin-left: 0px;
+  margin-right: 0px;
   margin-top: 30px;
-  background-color: 
-  rgba(199, 210, 206, 1)
-  
+  background: linear-gradient(rgba(78, 91, 117, 0.1), rgba(78, 91, 117, 0.1));
 }
 
 p{
@@ -13,13 +12,13 @@ p{
   padding-bottom: 15px;
   color: rgb(68, 68, 68);
   font-size: 30px;
+  background: transparent;
 }
 
 .hero img {
 
 border-radius: 100%;
 width: 300px;
-border: 1px solid black;
 display: block;
 margin: 0 auto;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -27,7 +26,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hero {
-background: linear-gradient(rgba(50,50,50), rgba(17, 29, 32, 0.2)),
+background: linear-gradient(rgb(19, 26, 39), rgba(1, 35, 43, 0.2)),
 url("./pexels-marina-leonova-7718587.jpg");
 height: 900px;
 padding-top: 185px;
@@ -42,7 +41,7 @@ background-attachment: fixed;
 
 .name{
 text-align: center;
-margin-top: 25px;
+margin-top: 45px;
 background: transparent;
 font-size: 50px;
 color: rgb(230, 230, 230);
@@ -69,11 +68,14 @@ opacity: 0.8;
   text-align: center;
   font-size: 50px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  margin: 20px;
+  margin-top: -30px;
+  padding-top: 30px;
+  color: rgba(1, 35, 43);
+  background: transparent;
 }
 
 a {
-background: rgb(194, 194, 194);
+background: rgb(199, 199, 199);
 text-decoration: none;
 padding: 1.2rem 1.5rem;
 color: black;
@@ -83,27 +85,33 @@ font-size: 20px;
 }
 
 .womu h1{
-margin-left: 90px;
-color: rgb(110, 146, 212);
+margin-left: 40px;
+color: rgb(40, 67, 88);
 margin-top: 15px;
-margin-bottom: 15px;
+margin-bottom: -20px;
 background: transparent;
 
 }
 ul li{
-color: rgb(68, 151, 123);
+color: rgb(34, 34, 34);
 font-size: 20px;
+background: transparent;
+margin-left: 2%;
+
 }
 
 .technop h1{
-color: rgb(110, 146, 212);
-margin-left: 90px;
+color: rgb(40, 67, 88);
+margin-left: 40px;
 margin-top: 15px;
 margin-bottom: 15px;
+background: transparent;
 }
 
 .technop{
-  margin: 20px;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-top: -20px;
   padding: 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -117,48 +125,80 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 .skills h1{
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 20px;
+  color: rgba(1, 35, 43);
+  background: transparent;
+}
+.skills{
   margin: 20px;
 }
 
 .tools {
   position: absolute;
   margin-left: 70%;
+  background: transparent;
 }
 
 .technologies {
   margin-left: 15%;
   margin-top: 50px;
+  background: transparent;
 }
+
 #hire {
-  margin-bottom: 50px;
-  margin-top: 30px;
-  margin-left: 40px;
+  text-align: center;
+  color: rgba(1, 35, 43);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 20px;
+  margin: 20px;
+  font-size: 40px;
+  background: transparent;
+  
 }
+
 .cont h4{
   background-color: transparent;
   margin-left: 20%;
   margin-left: 10px;
+  margin-left: 90px;
+  background: transparent;
 }
 
 .cont p{
 background-color: transparent;
 font-size: 20px;
-margin-left: 10px;
+margin-left: 90px;
 margin-top: -25px;
 }
 
-.cont #looking{
+#looking{
   font-size: large;
-  color: rgb(185, 111, 21);
+  color: rgb(37, 37, 37);
+  font-weight: 600;
+  text-align: center;
+  padding-top: 25px;
 }
 
 .cont {
-  background-color: rgb(212, 228, 224);
+ 
   margin: 20px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: transparent;
+  
 }
+
+.email {
+position: absolute;
+background: transparent;
+}
+
+.forma form {
+  margin-left: 60%;
+  background: transparent;
+}
+
 
 
 
