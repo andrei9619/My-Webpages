@@ -2,7 +2,8 @@
 *{
   margin-left: 0px;
   margin-top: 30px;
-  background-color: rgb(209, 216, 218);
+  background-color: 
+  rgba(199, 210, 206, 1)
   
 }
 
@@ -10,7 +11,7 @@ p{
   margin-left: 40px;
   margin-right: 60px;
   padding-bottom: 15px;
-  color: rgb(95, 95, 95);
+  color: rgb(68, 68, 68);
   font-size: 30px;
 }
 
@@ -22,25 +23,20 @@ border: 1px solid black;
 display: block;
 margin: 0 auto;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
-/* .hero{
-  background-image: url(/CV/pexels-marina-leonova-7718587.jpg);
-  background-size: cover;
-  background-position: top center;
-  position: relative;
-  z-index: 1;
-margin-top: -40px;
-padding: auto;
-} */
 .hero {
-background: url("./pexels-marina-leonova-7718587.jpg");
+background: linear-gradient(rgba(50,50,50), rgba(17, 29, 32, 0.2)),
+url("./pexels-marina-leonova-7718587.jpg");
 height: 900px;
 padding-top: 185px;
 background-position: top center;
 background-size: cover;
 margin-top: -60px;
 margin-bottom: -30px;
+margin-right: -10px;
+background-attachment: fixed;
 }
 
 
@@ -52,6 +48,7 @@ font-size: 50px;
 color: rgb(230, 230, 230);
 }
 .qa{
+  margin-top: -30px;
 color: rgb(221, 221, 221);
 text-align: center;
 padding: 10px;
@@ -65,12 +62,14 @@ margin: 20px 40px;
 margin-bottom: 80px;
 background: transparent;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-opacity: 0.9;
+opacity: 0.8;
 }
 
 .xperience{
   text-align: center;
   font-size: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 20px;
 }
 
 a {
@@ -104,19 +103,62 @@ margin-bottom: 15px;
 }
 
 .technop{
-  border: 1px solid;
   margin: 20px;
   padding: 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .womu{
-border: 1px solid;
+
 margin: 20px;
 padding: 30px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.tools h1{
+.skills h1{
   text-align: center;
+  font-size: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 20px;
 }
+
+.tools {
+  position: absolute;
+  margin-left: 70%;
+}
+
+.technologies {
+  margin-left: 15%;
+  margin-top: 50px;
+}
+#hire {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.cont h4{
+  background-color: transparent;
+  margin-left: 20%;
+  margin-left: 10px;
+}
+
+.cont p{
+background-color: transparent;
+font-size: 20px;
+margin-left: 10px;
+margin-top: -25px;
+}
+
+.cont #looking{
+  font-size: large;
+  color: rgb(185, 111, 21);
+}
+
+.cont {
+  background-color: rgb(212, 228, 224);
+  margin: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
