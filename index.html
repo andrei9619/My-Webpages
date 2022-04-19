@@ -177,21 +177,25 @@
 <!-----------Contact----------------> 
 
 <h1 id="hire">Contact me</h1>
+
 <div class="container">
   <p id="looking">Looking forward to hearing from you!</p>
   <div class="contact-box">
   <div class="right">
       <h2>Leave me a message</h2>
-      <input type="text" class="field" placeholder="Your Name">
-      <input type="text" class="field" placeholder="Your Email">
-      <input type="text" class="field" placeholder="Phone">
-      <textarea placeholder="Message" class="field"></textarea>
+<form action="https://formspree.io/f/xzbojoqw" method="POST" id="my-form">
+      <input type="text" class="field" placeholder="Your Name" name="Name">
+      <input type="text" class="field" placeholder="Your Email" name="Email">
+      <input type="text" class="field" placeholder="Phone" name="'Phone">
+      <textarea placeholder="Message" class="field" name="Message"></textarea>
       <button class="btn">Send</button>
     </div>
+    <div id="status">Nice bro</div>
   </div>
+  
 </div>
-
-
+</form>
+<script src="./form.js"></script>
 
 <!-----------EndContact---------------> 
 
